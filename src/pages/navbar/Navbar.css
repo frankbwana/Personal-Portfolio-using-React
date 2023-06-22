@@ -1,0 +1,25 @@
+.navbar__page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__links {
+    display: flex;
+    gap: 1.5rem;
+    margin: 25px 50px;
+
+}
+
+.logo{
+    display: flex;
+    margin-left: 2rem;
+
+}
+
+.hamburger__menu{
+    margin: 20px 50px;
+    border: 1px solid transparent;
+    color: aqua;
+    width: 30px;
+
+}
