@@ -6,11 +6,11 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click)
   return (
-    <div className='navbar__page'>
+    <div className='container navbar__page'>
       <div className="logo">
       <h1><a href="#home">Bwana</a></h1>
       </div>
-      <div className="navbar__links">
+      <div className={click ? "navbar__links active" : "navbar__links"}>
       <p><a href='#home'>Home</a></p>
       <p><a href='#about'>About</a></p>
       <p><a href='#skills'>Skills</a></p>

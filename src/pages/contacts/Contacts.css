@@ -25,9 +25,11 @@
     background: transparent;
     border-color: aqua;
 
+
 }
 .contact__icon{
-    font-size: 1rem;
+    font-size: 2rem;
+    color: aqua;
 }
 
 form{
@@ -40,6 +42,15 @@ input, textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    border: 2px solid var(--color-primary-varinat);
+    color: white;
+    background: transparent;
+    border: 2px solid aqua;
     resize: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .container.contacts__section{
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
 }

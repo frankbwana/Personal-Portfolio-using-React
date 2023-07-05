@@ -56,7 +56,7 @@ section {
   margin-top: 5rem;
 }
 
-section >h2, section >h5{
+section >h2{
   text-align: center;
   color: var(--color-light);
 }
@@ -105,6 +105,10 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+.text-light{
+  color: var(--color-light);
 }
 
 

@@ -19,13 +19,13 @@ const Contacts = () => {
         <FaWhatsapp className='contact__icon' />
         <h4>WhatsApp</h4>
         <h5>+254-719-637-558</h5>
-        <a href="https://api/whatsapp.com/send?phone+254719637558">Send a message</a>
+        <a href="https://api/whatsapp.com/send?phone=+254719637558">Send a message</a>
         </article>
         <article className='contact__option'>
         <BsTelephoneForwardFill className='contact__icon'/>
         <h4>Phone</h4>
         <h5>+254-719-637-558</h5>
-        <a href="https://api/whatsapp.com/send?phone+254719637558">Send a message</a>
+        <a href="https://api/whatsapp.com/send?phone+254719637558">Call number</a>
         </article>
       </div>
       <form action="">

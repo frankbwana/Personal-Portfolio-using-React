@@ -6,7 +6,6 @@
 }
 .about__me{
     width: 100%;
-    aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
@@ -16,15 +15,33 @@
 .about__img {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+
 }
 
-.about__img :hover{
-    transform: rotate(0deg);
-    cursor: pointer;
-
+.about__img:hover {
+    transform: rotate(10deg);
 }
 
 .summary{
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+  }
+  
+  /*===========Media queries=======(small devics)*/
+  @media screen and (max-width: 600px) {
+    .about__me{
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+    
+  }

@@ -34,3 +34,35 @@
     display: flex;
     gap: 1rem;
 }
+.tick{
+    margin-top: 6px;
+    color: aqua;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+   .skills__section{
+    grid-template-columns: 1fr;
+   }
+    .skills__section div{
+        width: 90%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .tick{
+        margin-top: 32px;
+    }
+    .frontend__content {
+        row-gap: 1rem;
+        padding: 1rem;
+}
+.backend__content {
+    row-gap: 1rem;
+    padding: 1rem;
+}
+}
+
+@media screen and (max-width: 600px){
+    
+}

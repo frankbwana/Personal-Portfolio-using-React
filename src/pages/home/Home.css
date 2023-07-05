@@ -14,7 +14,7 @@ header{
 .cta{
     margin-top: 2.5rem;
     display: flex;
-    gap: 1.2rem;
+    gap: 2rem;
     justify-content: center;
 }
 
@@ -24,13 +24,13 @@ header{
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 12rem;
 }
 
 /*===========Media queries=======(medium devics)*/
 @media screen and (max-width: 1024px) {
     header{
       height: 68vh;
+      
 
     }
 }
