@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import CTA from './CTA';
-import Me from '../../assets/Me.jpg'
+import Me from '../../assets/Bwana.png'
 import Typewriter from "typewriter-effect"
 
 const Home = () => {

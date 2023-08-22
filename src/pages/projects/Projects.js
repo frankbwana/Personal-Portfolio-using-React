@@ -4,7 +4,7 @@ import './Projects.css';
 const Projects = () => {
   return (
     <section id='projects'>
-     Project
+     Projects Page
     </section>
   )
 }

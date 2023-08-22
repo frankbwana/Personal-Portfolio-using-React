@@ -1,6 +1,7 @@
 .navbar__page{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .navbar__links {
@@ -27,19 +28,24 @@
 
 @media screen and (max-width: 1024px) {
     .navbar__page{
-        width: 90%;
-        gap: 0;
-        left: -100%;
+        width: 100%;
+        height: 100vh;
     }
-    .navbar__links{
-        display: flex;
+    .navbar__links {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
-    }
-    .navbar__links.active{
+        width: 100%;
+        height: 100vh;
+        font-size: 2rem;
+        position: absolute;
+        top: 0;
         left: -100%;
+        z-index: -3;
+      }
+
+    .navbar__links.active{
+        left: 0;
 
     }
 

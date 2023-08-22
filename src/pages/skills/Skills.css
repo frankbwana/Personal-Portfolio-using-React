@@ -13,7 +13,7 @@
 }
 .skills__section > div:hover{
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: aqua;
 }
 .skills__section > div h3{
     text-align: center;
